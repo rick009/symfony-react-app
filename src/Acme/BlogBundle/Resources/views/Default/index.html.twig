@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div id="blog"></div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script type="text/babel">
+        ReactDOM.render(<Blog />, document.getElementById('blog'));
+    </script>
+{% endblock %}
