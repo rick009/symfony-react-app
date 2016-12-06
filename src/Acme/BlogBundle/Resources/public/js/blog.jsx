@@ -23,12 +23,6 @@ const Blog = React.createClass({
                 </FormItem>
             </Form>
         );
-    },
-    onChange: function (date, dateString) {
-        console.log(date, dateString);
-    },
-    onClick: function () {
-        console.log('click');
     }
 });
 
